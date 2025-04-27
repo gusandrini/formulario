@@ -5,4 +5,28 @@ export const styles = StyleSheet.create({
         width: "100%"
 
     },
+    group: {
+        width:"100%",
+        height: 56,
+        backgroundColor: "white",
+        flexDirection: "row",
+        alignItems:"center",
+        overflow: "hidden"
+    },
+    icon:{
+        height: 56,
+        width: 56,
+        justifyContent:"center",
+        alignItems:"center",
+        overflow:"hidden",
+        borderRightWidth: 3,
+        borderRightColor:"#F4F5F6"
+
+    },
+    control: {
+        flex:1,
+        height: 56,
+        paddingLeft: 16,
+        fontSize: 16,
+    }
 });
